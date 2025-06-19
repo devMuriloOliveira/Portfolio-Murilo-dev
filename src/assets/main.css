@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root {
+  /* Dark theme (default) */
+  --bg-color: #191f36;
+  --snd-bf-color: #262b40;
+  --snd-bf-color-2: #22263a;
+  --text-color: #fff;
+  --main-color: #59b2f4;
+  --card-bg: rgba(255, 255, 255, 0.05);
+  --border-color: rgba(255, 255, 255, 0.1);
+  --shadow-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Light theme */
+body.light-theme {
+  --bg-color: #e2e8f0;
+  --snd-bf-color: #f8fafc;
+  --snd-bf-color-2: #edf1f5;
+  --text-color: #333;
+  --main-color: #007bff;
+  --card-bg: rgba(0, 0, 0, 0.05);
+  --border-color: rgba(0, 0, 0, 0.1);
+  --shadow-color: rgba(0, 0, 0, 0.1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  font-family: 'Nunito', sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+section {
+  min-height: 100vh;
+  padding: 10rem 9% 2rem;
+}
+
+#particles-js {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  opacity: 0.5;
+}
+
+body.light-theme #particles-js {
+  opacity: 0.3;
+}
+
+main {
+  position: relative;
+  z-index: 2;
+}
+
+/* Transições suaves para elementos que mudam com o tema */
+.header,
+.navbar,
+.btn,
+.social-media a,
+.contact-form,
+.form-field {
+  transition: all 0.3s ease;
+} 
