@@ -207,9 +207,9 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ## 📞 Contato
 
-- **LinkedIn**: [Murilo Oliveira](https://www.linkedin.com/in/murilo-oliveira-dev/)
+- **LinkedIn**: [Murilo Oliveira](https://www.linkedin.com/in/murilo-oliveira-28ab52248/)
 - **GitHub**: [@devMuriloOliveira](https://github.com/devMuriloOliveira)
-- **Email**: [seu-email@exemplo.com]
+- **Email**: [muriloleiteoliveira1@gmail.com]
 
 ---
 
