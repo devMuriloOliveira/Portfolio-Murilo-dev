@@ -16,11 +16,11 @@
         <div class="about-text">
           <h3>Frontend Developer</h3>
           <p class="description">
-            Desenvolvedor Front-End com experiência na criação de interfaces modernas, responsivas e focadas na melhor experiência do usuário. Tenho domínio em Vue.js, React, HTML, CSS e JavaScript, além de familiaridade com Git, GitHub, GitLab e metodologias ágeis.
+            Desenvolvedor Front-End com experiência na criação de interfaces modernas, responsivas e focadas na melhor experiência do usuário. Possuo domínio em Vue.js, React, HTML, CSS, JavaScript e Shopify, além de familiaridade com Git, GitHub, GitLab e metodologias ágeis..
           </p>
 
           <p class="description">
-            Sou apaixonado por tecnologia e estou no quinto semestre do curso de Análise e Desenvolvimento de Sistemas. Ao longo da minha trajetória, venho me aprimorando em frameworks modernos e aplicando meus conhecimentos em projetos práticos e experiências profissionais.
+            Sou apaixonado por tecnologia e formado em Análise e Desenvolvimento de Sistemas. Ao longo da minha trajetória, venho me aprimorando em frameworks modernos e aplicando meus conhecimentos em projetos práticos e experiências profissionais.
           </p>
 
           <p class="description">
@@ -36,13 +36,14 @@
               <span class="skill-tag">JavaScript</span>
               <span class="skill-tag">HTML5</span>
               <span class="skill-tag">CSS3</span>
+              <span class="skill-tag">Shopify</span>
               <span class="skill-tag">Tailwind</span>
               <span class="skill-tag">Git</span>
             </div>
           </div>
 
           <div class="cta-buttons">
-            <a href="/Currículo-Murilo-Oliveira-Dev.pdf" class="btn primary" download>
+            <a href="/Curriculo-Murilo.pdf" class="btn primary" download>
               <i class="fas fa-download"></i> Download CV
             </a>
             <a href="#contacts" class="btn secondary">

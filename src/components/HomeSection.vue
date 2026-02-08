@@ -5,7 +5,7 @@
       <!-- <h1 ref="nameElement"></h1> -->
       <h1>Murilo <span>Oliveira</span></h1>
       <h3>Desenvolvedor <span ref="professionElement" class="multiple-text"></span></h3>
-      <p>Sou Murilo Leite de Oliveira, desenvolvedor FrontEnd em formação, com foco em JavaScript, Vue.js, HTML e CSS. Estou no 5º semestre de Análise e Desenvolvimento de Sistemas e venho adquirindo experiência prática por meio de projetos e vivências profissionais. Busco sempre evoluir, criar soluções eficientes e contribuir de forma criativa com meu trabalho.</p>
+      <p>Sou Murilo Leite de Oliveira, desenvolvedor Front-end, com foco em JavaScript, Vue.js, React, HTML, CSS e Shopify. Sou formado em Análise e Desenvolvimento de Sistemas e possuo experiência prática adquirida por meio de projetos e vivências profissionais. Busco evolução constante, criação de soluções eficientes e contribuir de forma criativa e estratégica para os projetos em que atuo.</p>
       <div class="social-media">
         <a href="https://github.com/devMuriloOliveira" target="_blank" title="GitHub">
           <i class="fa-brands fa-github"></i>
@@ -14,7 +14,7 @@
           <i class="fa-brands fa-linkedin-in"></i>
         </a>
       </div>
-      <a href="/Currículo-Murilo-Oliveira-Dev.pdf" download class="btn">
+      <a href="/Curriculo-Murilo.pdf" download class="btn">
         <i class="fas fa-download"></i> Download CV
       </a>
     </div>
@@ -104,6 +104,8 @@ onMounted(() => {
 
 .home-img img {
   width: 25vw;
+  height: 25vw;
+  object-fit: cover;
   animation: floatImage 4s ease-in-out infinite;
   border-radius: 50%;
 }
@@ -190,6 +192,7 @@ onMounted(() => {
 
   .home-img img {
     width: 70vw;
+    height: 70vw;
     margin-top: 4rem;
   }
 }
